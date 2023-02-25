@@ -202,8 +202,9 @@
                      <ul class="footer-menu">
                         <li><a href="{{ route('welcome') }}">Inicio</a></li>
                         <li><a href="{{ route('nosotros') }}">Nosotros</a></li>
-                        <li><a href="{{ route('servicios.trabajos-en-techo') }}">Servicios</a></li>
                         <li><a href="{{ route('contacto') }}">Contacto</a></li>
+                        <li><a href="https://www.cotopaxi-vertex.com/webmail">Web Mail</a></li>
+                        
                      </ul>
                   </div>
                   <div class="col-lg-6 align-self-center">
