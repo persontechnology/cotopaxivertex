@@ -60,6 +60,20 @@ Route::prefix('servicios')->name('servicios.')->group(function () {
     Route::get('/acceso-vertical', function () {
         return view('servicios.acceso-vertical');
     })->name('acceso-vertical');
+
+    Route::get('/recoleccion-muestras-chimeneas', function () {
+        return view('servicios.recoleccion-muestras-chimeneas');
+    })->name('recoleccion-muestras-chimeneas');
+
+    Route::get('/supervicion-trabajos-alturas', function () {
+        return view('servicios.supervicion-trabajos-alturas');
+    })->name('supervicion-trabajos-alturas');
+    
+    Route::get('/limpiesa-silos', function () {
+        return view('servicios.limpiesa-silos');
+    })->name('limpiesa-silos');
+
+
     Route::get('/capacitacion', function () {
         return view('servicios.capacitacion');
     })->name('capacitacion');

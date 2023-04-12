@@ -34,11 +34,8 @@
                   </div>
                   <div class="top-header-right">
                      <div class="header-social">
-                        <a href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#!"><i class="fab fa-twitter"></i></a>
-                        <a href="#!"><i class="fab fa-instagram"></i></a>
-                        <a href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#!"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100076096722912" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/593987499132?text=hola,%20estoy%20interesado%20en%20tus%20servicios" target="_blank"><i class="fab fa-whatsapp"></i></a>
                      </div>
                   </div>
                </div>
@@ -109,6 +106,9 @@
                               <li><a class="dropdown-item" href="{{ route('servicios.trabajos-steel-panel') }}">Trabajos steel panel</a></li>
                               <li><a class="dropdown-item" href="{{ route('servicios.trabajos-eolicos') }}">Trabajos en eólicos</a></li>
                               <li><a class="dropdown-item" href="{{ route('servicios.acceso-vertical') }}">Acceso vertical</a></li>
+                              <li><a class="dropdown-item" href="{{ route('servicios.recoleccion-muestras-chimeneas') }}"> Recolección de muestras en chimeneas</a></li>
+                              <li><a class="dropdown-item" href="{{ route('servicios.supervicion-trabajos-alturas') }}"> Supervición de trabajos en alturas</a></li>
+                              <li><a class="dropdown-item" href="{{ route('servicios.limpiesa-silos') }}"> Limpieza de silos</a></li>
                               <li><a class="dropdown-item" href="{{ route('servicios.capacitacion') }}">Capacitación</a></li>
                            </ul>
                         </li>
@@ -144,11 +144,8 @@
                            Somos una empresa especializada en trabajos en vertical
                         </p>
                         <ul class="footer-social">
-                           <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-                           <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
-                           <li><a href="#!"><i class="fab fa-instagram"></i></a></li>
-                           <li><a href="#!"><i class="fab fa-whatsapp"></i></a></li>
-                           <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
+                           <li><a href="https://www.facebook.com/profile.php?id=100076096722912" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                           <li><a href="https://wa.me/593987499132?text=hola,%20estoy%20interesado%20en%20tus%20servicios" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
                         </ul>
                      </div>
                   </div>
@@ -161,7 +158,8 @@
                            <li><a href="{{ route('servicios.trabajos-steel-panel') }}"><i class="far fa-angle-double-right"></i> Trabajos Steel Panel</a></li>
                            <li><a href="{{ route('servicios.trabajos-eolicos') }}"><i class="far fa-angle-double-right"></i> Trabajos En Eólicos</a></li>
                            <li><a href="{{ route('servicios.acceso-vertical') }}"><i class="far fa-angle-double-right"></i> Acceso Vertical</a></li>
-                           <li><a href="{{ route('servicios.capacitacion') }}"><i class="far fa-angle-double-right"></i> Capacitación</a></li>
+                        
+                           
                         </ul>
                      </div>
                   </div>

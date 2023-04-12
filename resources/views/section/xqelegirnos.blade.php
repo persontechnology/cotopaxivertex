@@ -51,7 +51,7 @@
                       </div>
                    </div>
                 </div>
-                <a href="#" class="theme-icon-btn mt-4">Contactenos <i class="far fa-arrow-right"></i></a>
+                <a href="{{ route('contacto') }}" class="theme-icon-btn mt-4">Contactenos <i class="far fa-arrow-right"></i></a>
              </div>
           </div>
        </div>

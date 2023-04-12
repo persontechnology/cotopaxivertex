@@ -13,7 +13,7 @@
           </div>
        </div>
        <div class="row justify-content-between">
-          <div class="col-lg-3 col-md-6 text-center mb-30">
+          <div class="col-lg-6 col-md-6 text-center mb-30">
              <div class="process-single">
                 <div class="icon">
                    <span>01</span>
@@ -23,17 +23,17 @@
                 <p>En primer lugar, nos encontramos por primera vez con el cliente para conocernos y saber más acerca de nuestras empresas</p>
              </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center mb-30">
+          <div class="col-lg-6 col-md-6 text-center mb-30">
              <div class="process-single">
                 <div class="icon">
                    <span>02</span>
                    <i class="fal fa-badge-check"></i>
                 </div>
                 <h4>Establecemos un plan de trabajo</h4>
-                <p>Diseñamps y elaboramos un plan de trabajo detallado que incluya tareas específicas, plazos y responsabilidades.</p>
+                <p>Diseñamos y elaboramos un plan de trabajo detallado que incluya tareas específicas, plazos y responsabilidades.</p>
              </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center mb-30">
+          {{-- <div class="col-lg-3 col-md-6 text-center mb-30">
              <div class="process-single">
                 <div class="icon">
                    <span>03</span>
@@ -42,7 +42,7 @@
                 <h4>Aprendemos a decir "no"</h4>
                 <p>A veces, es necesario decir "no" a ciertas tareas o compromisos para poder enfocarnos en lo que es más importante y para trabajar de manera más eficiente.</p>
              </div>
-          </div>
+          </div> --}}
        </div>
     </div>
  </div>
