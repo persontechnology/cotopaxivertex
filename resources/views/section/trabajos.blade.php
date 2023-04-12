@@ -12,7 +12,7 @@
              </div>
           </div>
        </div>
-       <div class="row popup-gallery">
+       <div class="row popup-gallery bg-secondary border border-4">
           <div class="col-lg-4 col-md-6">
              <div class="cases-item">
                 {{-- <div class="cases-images">
@@ -108,6 +108,61 @@
                 </div>
              </div>
           </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="cases-item">
+               {{-- <div class="cases-images">
+                  <img class="img-fluid" src="{{ asset('ui/assets/img/work/6.jpeg') }}" alt="">
+                  <div class="cases-hover">
+                     <p>Contamos con capacitadores expertos de talla mundial a tu servicio.</p>
+                  </div>
+                  <a class="popup-img cases-link" href="{{ asset('ui/assets/img/work/6.jpeg') }}"> <i class="far fa-plus"></i>
+                  </a>
+               </div> --}}
+               <div class="cases-desc">
+                  <div>
+                     <h4><a href="{{ route('servicios.recoleccion-muestras-chimeneas') }}">RECOLECCIÓN DE MUESTRAS EN CHIMENEAS</a></h4>
+                  </div>
+                  
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-6">
+            <div class="cases-item">
+               {{-- <div class="cases-images">
+                  <img class="img-fluid" src="{{ asset('ui/assets/img/work/6.jpeg') }}" alt="">
+                  <div class="cases-hover">
+                     <p>Contamos con capacitadores expertos de talla mundial a tu servicio.</p>
+                  </div>
+                  <a class="popup-img cases-link" href="{{ asset('ui/assets/img/work/6.jpeg') }}"> <i class="far fa-plus"></i>
+                  </a>
+               </div> --}}
+               <div class="cases-desc">
+                  <div>
+                     <h4><a href="{{ route('servicios.supervicion-trabajos-alturas') }}">SUPERVISIÓN DE TRABAJOS EN ALTURAS</a></h4>
+                  </div>
+                  
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-6">
+            <div class="cases-item">
+               {{-- <div class="cases-images">
+                  <img class="img-fluid" src="{{ asset('ui/assets/img/work/6.jpeg') }}" alt="">
+                  <div class="cases-hover">
+                     <p>Contamos con capacitadores expertos de talla mundial a tu servicio.</p>
+                  </div>
+                  <a class="popup-img cases-link" href="{{ asset('ui/assets/img/work/6.jpeg') }}"> <i class="far fa-plus"></i>
+                  </a>
+               </div> --}}
+               <div class="cases-desc">
+                  <div>
+                     <h4><a href="{{ route('servicios.limpiesa-silos') }}">LIMPIEZA DE SILOS</a></h4>
+                  </div>
+                  
+               </div>
+            </div>
+         </div>
           <div class="col-lg-4 col-md-6">
              <div class="cases-item">
                 {{-- <div class="cases-images">
@@ -120,7 +175,7 @@
                 </div> --}}
                 <div class="cases-desc">
                    <div>
-                      <h4><a href="{{ route('servicios.capacitacion') }}">Capacitación</a></h4>
+                      <h4><a href="{{ route('servicios.capacitacion') }}">CAPACITACIÓN</a></h4>
                    </div>
                    
                 </div>
