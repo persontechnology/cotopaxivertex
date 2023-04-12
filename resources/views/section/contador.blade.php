@@ -5,8 +5,8 @@
              <div class="counter-box">
                 <div class="icon"><i class="fal fa-layer-group"></i></div>
                 <div class="counter-content">
-                   <span class="counter" data-count="+" data-to="500" data-speed="3000">500</span>
-                   <h6 class="title">+ Proyecto Terminado</h6>
+                   <span class="counter" data-count="+" data-to="500" data-speed="1000">1000</span>
+                   <h6 class="title">+ Horas trabajadas</h6>
                 </div>
              </div>
           </div>
@@ -14,8 +14,8 @@
              <div class="counter-box mt-40">
                 <div class="icon"><i class="fal fa-mug-hot"></i></div>
                 <div class="counter-content">
-                   <span class="counter" data-count="+" data-to="250" data-speed="3000">250</span>
-                   <h6 class="title">+ Taza De Té con Clientes</h6>
+                   <span class="counter" data-count="+" data-to="50" data-speed="100">100</span>
+                   <h6 class="title">+ Clientes coorporativos</h6>
                 </div>
              </div>
           </div>
@@ -23,8 +23,8 @@
              <div class="counter-box">
                 <div class="icon"><i class="fal fa-user-friends"></i></div>
                 <div class="counter-content">
-                   <span class="counter" data-count="+" data-to="120" data-speed="3000">120</span>
-                   <h6 class="title">+ Empleados total</h6>
+                   <span class="counter" data-count="+" data-to="2000" data-speed="3000">3000</span>
+                   <h6 class="title">+ Personas certificadas </h6>
                 </div>
              </div>
           </div>
@@ -32,7 +32,7 @@
              <div class="counter-box mt-40">
                 <div class="icon"><i class="fal fa-award"></i></div>
                 <div class="counter-content">
-                   <span class="counter" data-count="+" data-to="50" data-speed="3000">50</span>
+                   <span class="counter" data-count="+" data-to="25" data-speed="50">50</span>
                    <h6 class="title">+  Premios</h6>
                 </div>
              </div>
