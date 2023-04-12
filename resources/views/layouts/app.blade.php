@@ -6,7 +6,7 @@
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <title>{{ config('app.name', 'Laravel') }}</title>
-      <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+      <link rel="shortcut icon" type="image/x-icon" href="{{ asset('ui/assets/img/logo/favicon.png') }}">
       <link href="{{ asset('ui/assets/css/bootstrap.min.css') }}" rel="stylesheet" />
       <link href="{{ asset('ui/assets/css/fontawesome.min.css') }}" rel="stylesheet" />
       <link href="{{ asset('ui/assets/css/themify-icons.css') }}" rel="stylesheet" />
@@ -17,6 +17,28 @@
       <link href="{{ asset('ui/assets/css/owl.theme.default.min.css') }}" rel="stylesheet" />
       <link href="{{ asset('ui/assets/css/animate.min.css') }}" rel="stylesheet" />
       <link href="{{ asset('ui/assets/css/style.css') }}" rel="stylesheet">
+
+
+      <meta name="description" content="Es una empresa del grupo COTOPAXI, nace con la finalidad de satisfacer las necesidades en trabajos especiales (Trabajos en alturas) utilizando técnicas comprobadas, equipos homologados y personal capacitado que garantizan un trabajo integral, nuestro esfuerzo se centra en brindar seguridad, calidad y compromiso con cada uno de nuestros clientes.">
+      <meta name="keywords" content="TRABAJOS EN TECHOS,TRABAJOS CONFINADOS,TRABAJO STEEL PANEL,TRABAJOS EN EÓLICOS,ACCESO VERTICAL,RECOLECCIÓN DE MUESTRAS EN CHIMENEAS,SUPERVISIÓN DE TRABAJOS EN ALTURAS,LIMPIEZA DE SILOS,CAPACITACIÓN">
+
+      <meta name="author" content="COTOPAXI-VERTEX">
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="COTOPAXI-VERTEX" />
+      <meta property="og:description" content="Es una empresa del grupo COTOPAXI, nace con la finalidad de satisfacer las necesidades en trabajos especiales (Trabajos en alturas) utilizando técnicas comprobadas, equipos homologados y personal capacitado que garantizan un trabajo integral, nuestro esfuerzo se centra en brindar seguridad, calidad y compromiso con cada uno de nuestros clientes." />
+      <meta property="og:image" content="{{ asset('ui/assets/img/logo/favicon.png') }}" />
+      <meta property="og:image:width" content="1080" />
+      <meta property="og:image:height" content="1080" />
+      <meta property="og:url" content="{{ url('/') }}" />
+      <meta property="og:site_name" content="COTOPAXI VERTEX" />
+      <meta property="og:locale" content="es" />
+
+      <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+      <meta name="DC.Title" content="COTOPAXI-VERTEX">
+      <meta name="DC.Creator" content="COTOPAXI-VERTEX">
+      <meta name="DC.Description" content="Es una empresa del grupo COTOPAXI, nace con la finalidad de satisfacer las necesidades en trabajos especiales (Trabajos en alturas) utilizando técnicas comprobadas, equipos homologados y personal capacitado que garantizan un trabajo integral, nuestro esfuerzo se centra en brindar seguridad, calidad y compromiso con cada uno de nuestros clientes.">
+
+
    </head>
    <body>
       <div class="preloader">
